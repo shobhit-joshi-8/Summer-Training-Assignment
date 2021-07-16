@@ -1,0 +1,20 @@
+<center>
+<h1>ENTER NUMBERS</h1><br><br>
+<input id="n1"/><br><br>
+<input id="n2"/><br><br>
+<input id="n3"/><br><br>
+<input type="button" value="greatest number" onclick="show()" /><br><br>
+<output id=out />
+
+<script>
+ function show()
+{          a=parseInt(n1.value);
+            b=parseInt(n2.value);
+            c=parseInt(n3.value);
+            if(a>b && a>c) d=a;
+            else if(b>a && b>c) d=b;
+            else d=c;
+            out.value= +d +"is the greatest no."
+
+}
+</script>
